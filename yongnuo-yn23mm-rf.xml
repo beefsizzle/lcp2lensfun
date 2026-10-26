@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lensdatabase version="2">
+    <!-- Converted from Yongnuo's official LCP (calibrated on a 24MP Canon APS-C body, 6000x4000) with lcp2lensfun.py -->
+    <lens>
+        <maker>Yongnuo</maker>
+        <model>Yongnuo YN23mm F/1.4R DA DSM</model>
+        <mount>Canon RF</mount>
+        <cropfactor>1.612</cropfactor>
+        <calibration>
+            <!-- distortion/TCA from the f/8 calibration entry -->
+            <distortion model="poly5" focal="23" k1="-0.01884483" k2="0.001128793" />
+            <tca model="poly3" focal="23" vr="1.000238" vb="1.000157" />
+            <vignetting model="pa" focal="23" aperture="1.4" distance="0.373552" k1="-0.5039399" k2="0" k3="0" />
+            <vignetting model="pa" focal="23" aperture="2" distance="0.384148" k1="-0.1672044" k2="0" k3="0" />
+            <vignetting model="pa" focal="23" aperture="2.8" distance="0.385726" k1="-0.1679427" k2="0" k3="0" />
+            <vignetting model="pa" focal="23" aperture="4" distance="0.384749" k1="-0.1258886" k2="0.01940547" k3="0" />
+            <vignetting model="pa" focal="23" aperture="5.6" distance="0.385141" k1="-0.1196928" k2="0" k3="0" />
+            <vignetting model="pa" focal="23" aperture="8" distance="0.385298" k1="-0.11474" k2="0.03439197" k3="0" />
+            <vignetting model="pa" focal="23" aperture="11" distance="0.385217" k1="-0.1054224" k2="0.02427076" k3="0.009857299" />
+            <vignetting model="pa" focal="23" aperture="16" distance="0.384362" k1="-0.1256366" k2="0" k3="0" />
+        </calibration>
+    </lens>
+</lensdatabase>
