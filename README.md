@@ -29,7 +29,7 @@ In the Lens Correction panel, the lens should be auto-detected. If it isn't, pic
 
 ## Notes
 
-- The file is standard Lensfun XML and validates against Lensfun's DTD and schema. The same file also works in
+- The file is standard Lensfun XML, and validates against Lensfun's DTD and schema. The same file also works in
   darktable or RawTherapee: put it in `~/.local/share/lensfun/` (darktable) or the Lensfun user folder.
 - The conversion is exact: it rescales Adobe's polynomial coefficients, with no curve fitting. One exception is the
   red/blue CA terms. RapidRAW can only apply a constant red/blue scale, so those are averaged over the frame.
